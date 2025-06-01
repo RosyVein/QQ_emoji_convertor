@@ -1,7 +1,7 @@
 # QQ emoji convertor
 Convert local emoji files into usable files for QQ on macOS.
 
-Tested on QQ9 v.6.9.67-33259 App Store version.
+Tested on QQ9 v.6.9.67-33259 App Store version. The way QQ store emoji files may change, please be cautious.
 
 
 
@@ -23,9 +23,11 @@ The script will convert all emoji files within the folder and add a proper exten
 
 ## Todo
 
-- Get the info about emoji from market page
+- Get the info about emoji from ~~market page~~ local JSON files local in `marketface/json`
   - Rename the folder to proper name
   - Rename each files to proper name
-
+  - Auto-detect the file in diffrent way when files locate differently 
+  
 - Cleanup thumbnail files (Optional)
 - Create new files rather than replace (Optional)
+- If input folder is `marketface` itself, batch all folders under it
